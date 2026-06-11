@@ -1,17 +1,29 @@
-# test7
+Task's 📝
 
-A new Flutter project.
+A simple and elegant Task Management (To-Do List) app with a modern dark-themed UI.
 
-## Getting Started
+✨ Features
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+➕ Easily add new tasks via a floating action button
+✅ Mark tasks as completed
+🗑️ Delete tasks
+📂 Tasks are split into two sections:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Active Tasks: your current pending tasks
+Completed Tasks: finished tasks (shown with a strikethrough)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+🎨 Dark UI with vibrant purple/pink accents
+📱 Responsive design that works across different screen sizes
+
+
+🖼️ Screenshots
+<p align="center">
+  <img src="assets/screenshots/one.png" width="180"/>
+  <img src="assets/screenshots/Two.png" width="180"/>
+  <img src="assets/screenshots/Three.png" width="180"/>
+  <img src="assets/screenshots/four.png" width="180"/>
+  <img src="assets/screenshots/five.png" width="180"/>
+</p>
