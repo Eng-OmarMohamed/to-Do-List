@@ -21,9 +21,9 @@ Completed Tasks: finished tasks (shown with a strikethrough)
 
 🖼️ Screenshots
 <p align="center">
-  <img src="assets/screenshots/one.png" width="180"/>
-  <img src="assets/screenshots/Two.png" width="180"/>
-  <img src="assets/screenshots/Three.png" width="180"/>
-  <img src="assets/screenshots/four.png" width="180"/>
-  <img src="assets/screenshots/five.png" width="180"/>
+  <img src="assets/screenshots/one.png" width="200" />
+  <img src="assets/screenshots/Two.png" width="200"/>
+  <img src="assets/screenshots/Three.png" width="200"/>
+  <img src="assets/screenshots/four.png" width="200"/>
+  <img src="assets/screenshots/five.png" width="200"/>
 </p>
