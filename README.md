@@ -14,6 +14,7 @@ The application includes:
 ---
 # 🚀 Features
 ✅ Modern Dark UI Design using Flutter
+
 ✅ Clean Code Architecture
 ✅ Reusable Widgets
 ✅ Active Tasks & Completed Tasks Sections
