@@ -13,17 +13,16 @@ The application includes:
 * Responsive Design for different screen sizes
 ---
 # 🚀 Features
-✅ Modern Dark UI Design using Flutter
-
-✅ Clean Code Architecture
-✅ Reusable Widgets
-✅ Active Tasks & Completed Tasks Sections
-✅ Add / Complete / Delete Tasks
-✅ Responsive Design for all devices
-✅ Organized project structure
-✅ Smooth and simple User Experience
-✅ Separation of Widgets, Constants, and Screens
-✅ Beginner & Intermediate friendly project
+✅ Modern Dark UI Design using Flutter 
+✅ Clean Code Architecture 
+✅ Reusable Widgets 
+✅ Active Tasks & Completed Tasks Sections 
+✅ Add / Complete / Delete Tasks 
+✅ Responsive Design for all devices 
+✅ Organized project structure 
+✅ Smooth and simple User Experience 
+✅ Separation of Widgets, Constants, and Screens 
+✅ Beginner & Intermediate friendly project 
 ---
 # 🛠️ Technologies Used
 * Flutter
