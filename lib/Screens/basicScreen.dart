@@ -22,7 +22,12 @@ class _TasksHomeScreenState extends State<TasksHomeScreen> {
 
   final TextEditingController _taskController = TextEditingController();
   final ImagePicker _picker = ImagePicker();
-
+  final hourNow =  DateTime.now().hour % 12 ;
+  late final timeNow = hourNow ;
+  final minuteNow = DateTime.now().minute;
+  final yearsNow = DateTime.now().year;
+  final monthNow = DateTime.now().month;
+  final dayNow = DateTime.now().day;
   @override
   Widget build(BuildContext context) {
     String? imagePath = userBox.get('profilePath');
@@ -126,7 +131,7 @@ class _TasksHomeScreenState extends State<TasksHomeScreen> {
                       child: ListTile(
                         leading: IconButton(
                           icon: Icon(Icons.circle_outlined,
-                              color: AppColor.circleIconProfilePhoto),
+                           color: AppColor.circleIconProfilePhoto),
 
                           onPressed: () =>
                               markAsDone(taskBox: taskBox,
@@ -135,12 +140,56 @@ class _TasksHomeScreenState extends State<TasksHomeScreen> {
                                   taskTitle: taskTitle),
 
                         ),
-                        title: Text(taskTitle, style: TextStyle(
-                            fontSize: 18, color: AppColor.tasksActive)),
+                        title: Row(
+                          children: [
+                            Text(taskTitle, style: TextStyle(
+                                fontSize: 18, color: AppColor.tasksActive)),
+                            Transform.translate(offset: Offset(0, 10),
+                            child: Transform.translate(offset: Offset(10 , 0),
+                              child: Row(
+                                children: [
+                                  Text("$timeNow",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.grey ,
+                                        fontSize: 10),
+                                  ),
+                                  Text(":$minuteNow \t | ",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.grey ,
+                                        fontSize: 10),
+                                  ),
+                                  Text("$dayNow/",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.grey ,
+                                        fontSize: 10),
+                                  ),
+                                  Text("$monthNow/",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.grey ,
+                                        fontSize: 10),
+                                  ),
+                                  Text("$yearsNow",
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.grey ,
+                                        fontSize: 10),
+                                  ),
+
+                                ],
+                              )
+                                ),)
+                          ],
+                        ),
+
                         trailing: IconButton(
                           icon: Icon(
                               Icons.delete_outline, color: AppColor.delete),
                           onPressed: () => box.deleteAt(index),
+
                         ),
                       ),
                     );
